@@ -8,7 +8,7 @@ connection = sqlite3.connect('rpg_db.sqlite3')
 cursor = connection.cursor()
 
 # Step 3 - Write a query
-# (See the queries.py file, have moved query there)
+# (See the queries.py file, have moved query there now)
 
 # Step 4 - Execute the query on the cursor and fetch the results
 # "pulling results" from the cursor
