@@ -19,4 +19,4 @@ if __name__ == '__main__':
     results = execute_q(conn, q.AVG_ITEM_WEIGHT_PER_CHARACTER)
     df = pd.DataFrame(results)
     df.columns = ['name', 'average_item_weight']
-    df.to_csv('rpg_db.csv', index=False)
+    print(results)
