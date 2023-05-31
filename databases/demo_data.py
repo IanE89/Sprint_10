@@ -3,7 +3,7 @@ import sqlite3
 # Open a connection to the database
 conn = sqlite3.connect('demo_data.sqlite3')
 
-# Create a cursor
+# Create a cursor to connect to
 cursor = conn.cursor()
 
 # Query: How many rows are in the table?
